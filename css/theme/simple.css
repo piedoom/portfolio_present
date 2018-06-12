@@ -36,6 +36,27 @@ body {
   line-height: 1.3;
   font-weight: inherit; }
 
+h1,h2,h3,h4,h5,h6,p,li {
+  color: #333;
+}
+
+.theme-dark * {
+  color: white !important;
+}
+
+.theme-dark h1,.theme-dark h2,.theme-dark h3,.theme-dark h4,.theme-dark h5,.theme-dark h6 {
+  color: white !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid img {
+  width: 100%;
+}
+
 /*********************************************
  * HEADERS
  *********************************************/
@@ -46,8 +67,6 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #333;
-  font-family: 'Barlow', sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -77,12 +96,12 @@ body {
   margin: 20px 0;
   line-height: 1.3;}
 
-/* Ensure certain elements are never larger than the slide itself */
+/* Ensure certain elements are never larger than the slide itself 
 .reveal img,
 .reveal video,
 .reveal iframe {
   max-width: 95%;
-  max-height: 95%; }
+  max-height: 95%; }*/
 
 .reveal strong,
 .reveal b {
@@ -233,8 +252,8 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #333;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  /*border: 4px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);*/ }
 
 .reveal section img.plain {
   border: 0;
