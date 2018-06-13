@@ -501,6 +501,58 @@
 					<h2>Examples</h2>
 
 					<aside class="notes">
+						To better understand the product, I have a couple examples set up.
+					</aside>
+				</section>
+
+				<!-- Examples -->
+				<section class="theme-dark" data-background-color="#1e1e1e">
+
+					<div class="grid">
+						<div>
+							<h1>High Pass</h1>
+							<p>Filters out all high-pitched frequencies</p>
+						</div>
+						<div>
+							<img src="media/animate/highcut.png"/>
+						</div>
+					</div>
+
+					<aside class="notes">
+						Replace me!
+					</aside>
+				</section>
+
+				<section class="theme-dark" data-background-color="#1e1e1e">
+
+					<div class="grid">
+						<div>
+							<h1>Low Pass</h1>
+							<p>Filters out all low-pitched frequencies</p>
+						</div>
+						<div>
+							<img src="media/animate/lowcut.png"/>
+						</div>
+					</div>
+
+					<aside class="notes">
+						Replace me!
+					</aside>
+				</section>
+
+				<section class="theme-dark" data-background-color="#1e1e1e">
+
+					<div class="grid">
+						<div>
+							<h1>Goal</h1>
+							<p>Automate filters easily.</p>
+						</div>
+						<div>
+							<img src="media/animate/params.gif"/>
+						</div>
+					</div>
+
+					<aside class="notes">
 						Replace me!
 					</aside>
 				</section>
@@ -543,9 +595,9 @@
 				<!-- Goals -->
 				<section class="theme-dark" data-background-color="#1e1e1e">
 
-					<h2>Goals</h2>
+					<h2>Design Goals</h2>
 					<ul>
-						<li>Communicate gist of program without tutorials</li>
+						<li>Communicate gist of program to sound designers without need for tutorials</li>
 						<li>Reduce visual noise & skeuomorphism present in many modern plugins</li>
 						<li>Focus on animation & automation</li>
 						<li>Super utilize visual cues</li>
@@ -561,14 +613,78 @@
 				<section 
 					data-background-image="media/animate/wireframe.png" 
 					data-background-size="contain" >
+					<aside class="notes">
+						I began with rough annotated sketches of my idea before moving on to - - -
+					</aside>
 				</section>
 
 				<section 
 					data-background-image="media/animate/wireframe-hifi.png" 
-					data-background-size="contain" >
+					data-background-size="contain" 
+					data-background-color="#606060">
+					<aside class="notes">
+						- - - Some simple wireframes.
+
+						I grouped my wireframe into 3 visual blocks
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="media/animate/wire_eq.jpg" 
+					data-background-size="contain"
+					data-background-color="#181818">
+					<aside class="notes">
+						The first is a visual EQ view, which displays the sound waves being modified as well as different control nodes.<br><br>
+						This element is something almost all digital EQs have, so users should be comfortable seeing it there.
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="media/animate/wire_timeline.jpg" 
+					data-background-size="contain"
+					data-background-color="#181818">
+					<aside class="notes">
+						Below the visual EQ lies a timeline.  The timline controls each node over time, and shows where in time each change happens.<br><br>
+						This section is heavily inspired by programs such as After effects, Blender, and other keyframing applications. 
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="media/animate/wire_settings.jpg" 
+					data-background-size="contain"
+					data-background-color="#181818">
+					<aside class="notes">
+						To the right is a properties menu.  This section allows the user to finely tweak their EQ animation.
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="media/animate/demonstration.jpg" 
+					data-background-size="contain"
+					data-background-color="#181818">
+					<aside class="notes">
+						In short, each view displayed the information in a different way.  The amplitude slider, node position, and keyframe were all connected.
+					</aside>
 				</section>
 
 				<!-- TODO: visual affordances -->
+
+				<section>
+					<h1>Visual Design</h1>
+					<p>Visual cues are really necessary for heavily interactive applications, so I made sure the visuals always communicated useful information.</p>
+				</section>
+
+				<section 
+					data-background-color="#181818">
+					<div class="grid">
+						<div>
+							<h1>Color Importance</h1>
+						</div>
+					</div>
+					<aside class="notes">
+						Replace me!
+					</aside>
+				</section>
 
 				<!-- Comp -->
 				<section 
@@ -585,13 +701,95 @@
 					data-background-size="contain"
 					data-background-video-loop="true" 
 					data-background-color="#791930">
+					<aside class="notes">
+						The Reel is a mobile application focused on short sports highlight clips.
+					</aside>
 				</section>
 
 				<section 
-					data-background-image="media/tr/wireframe.png" 
+					data-background-image="media/tr/bg.jpg" 
+					data-background-size="cover"
+					data-background-video-loop="true" 
+					data-background-color="black"
+					class="theme-dark">
+					<h1>Goals</h1>
+					<ul>
+						<li class="fragment">Streamlined & Single purpose</li>
+						<li class="fragment">Adaptive</li>
+						<li class="fragment">Low friction</li>
+						<li class="fragment">Content funnel</li>
+					</ul>
+					<aside class="notes">
+						The Reel is a class project proposed by a former ESPN executive.  The idea was to create a simple way for sports fans to watch sports highlight clips.<br><br>
+						I kept the project simple & streamlined.  Users should be able to easily start using the app.<br><br>
+						I wanted the app to adapt to user needs.  For instance, a Pittsburgh resident should automatically be recommended Pittsburgh-related teams such as the Steelers.<br><br>
+						Finally, I wanted users to spend as much time in the app as possible by offering related videos and topics.
+					</aside>
+				</section>
+
+				<!-- TODO: Personas? -->
+
+				<section>
+					<h1>Users</h1>
+					<p class="fragment">While on transport</p>
+					<p class="fragment">Relaxing</p>
+					<p class="fragment">Catching up</p>
+					<aside class="notes">
+						I began with some general user personas.<br><br>
+						User A wants to watch sports highlights on transportation.  They want bite-sized content and quick interactions.<br><br>
+						User B just wants to relax watching highlights.  They want to sit back and watch anything and everything.<br><br>
+						User C wants to catch up with the latest so they can talk about sports with their friends and colleagues.  They love specific sports teams and would like to know about them specifically.
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="media/tr/wireframe1.jpg" 
 					data-background-size="contain"
 					data-background-color="white">
+					<aside class="notes">
+						I began with lofi wireframes. <br><br>
+						Simple, optional login lets users quickly get into the app.
+					</aside>
 				</section>
+
+				<section 
+					data-background-image="media/tr/wireframe2.jpg" 
+					data-background-size="contain" 
+					data-background-color="white">
+					<aside class="notes">
+						A video feed based on user location, possible interests, and later human feedback provide content.
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="media/tr/wireframe3.jpg" 
+					data-background-size="contain"
+					data-background-color="white">
+					<aside class="notes">
+						The app has an emphasis on video, with recommendations and social sharing buttons.
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="media/tr/wireframe4.jpg" 
+					data-background-size="contain"
+					data-background-color="white">
+					<aside class="notes">
+						Minimalist settings allow for more granular control ---
+					</aside>
+				</section>
+
+				<section 
+					data-background-image="media/tr/wireframe5.jpg" 
+					data-background-size="contain"
+					data-background-color="white">
+					<aside class="notes">
+						--- along with the ability to manually add or remove followed topics.<br><br>
+						This project had a short timespan, so I wasn't able to include everything I planned in the final comps, but I'd like to show them and explain their visual direction.
+					</aside>
+				</section>
+
+				<!-- style -->
 
 				<section 
 					data-background-image="media/tr/style.png" 
