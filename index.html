@@ -39,7 +39,7 @@
 					<aside class="notes">
 						<ul>
 							<li>
-								First off, thank you for this opportunity. It means a lot!
+								First off, thank you for this opportunity.
 							</li>
 							<li>
 								I want to start with a brief intro so you can know a little more about me
@@ -97,8 +97,8 @@
 						<br> - In college I started picking up programming & development on my own time along with getting my degree in design.
 						- In fact, later in college I had a part time job teaching basic coding skills to kids at a place called iCanCode Club
 						<br>
-						<br> - That's partly why I'm passionate about Linux Academy and their mission. I love the idea of fusing my love of design
-						with my love of technology and education, and I love the positive impact that can be made by education.
+						<br> - That's why I'm passionate about Linux Academy and their mission. I love the idea of fusing my love of design with
+						my love of technology and education.
 						<br>
 						<br>
 					</aside>
@@ -112,7 +112,7 @@
 				<aside class="notes">
 					- So, I want to get started by presenting some of my portfolio pieces.
 					<br>
-					<br> I chose a web product, a mobile app, and a desktop app to present in order to show a variety of different design platforms.
+					<br> I chose to present a web product, desktop applciation, and a mobile app to showcase a variety of different design platforms.
 				</aside>
 			</section>
 
@@ -417,8 +417,12 @@
 						first page, along with a playable sample, description, and price. The bottom of the page features an area where social
 						content could be displayed from tutorials to giveaways.
 						<br>
-						<br> I used complementary colors as well as angles to make the page more exciting and dynamic and I drew inspiration from
-						jazz-era posters and media.
+						<br> The top of the page presents a huge banner that shows featured products. I had something similar with my older design,
+						except the link redirected to the products page. After looking at clicks using google analytics, I noticed many users
+						clicked through but then left. I hoped that linking directly to a product would help user engagment.
+						<br>
+						<br> In terms of visual style, I used complementary colors as well as angles to make the page more exciting and dynamic
+						and I drew inspiration from jazz-era posters and media.
 					</aside>
 				</section>
 
@@ -494,7 +498,7 @@
 						What's next?
 						<br>
 						<br> I want to allow user-generated content. Allowing users to upload their own instruments and sell them would help cultivate
-						a recurring user base.
+						a recurring user base.-
 						<br>
 						<br> Adding share buttons like "tweet this to get 25% off your order" have proven effective advertising for me in the past.
 						I'd like to implement something like that here too.
@@ -507,8 +511,8 @@
 						<br> Something I'd like to know more about is effective marketing and advertising. I think it can really help the website
 						if done properly.
 						<br>
-						<br> Finally, I'd like to do real user testing. I've found methods like eye tracking really cool and I'd like to try something
-						along those lines.
+						<br> Finally, I'd like to do real user testing. I've found methods like eye tracking great for checking visual hierarchy
+						and I'd like to try something like that.
 					</aside>
 				</section>
 
@@ -520,6 +524,12 @@
 				<section data-background-video="media/animate/banner.mp4" data-background-size="contain" data-background-video-loop="true"
 				 data-background-color="#171617">
 					<h1>Animate</h1>
+					<aside class="notes">
+						The second project I'd like to show today is a desktop audio application called Animate.
+						<br>
+						<br> Animate is an audio effect filter, which means it takes input audio from vocals or an instrument and changes it digitally
+						(similar to a guitar pedal)
+					</aside>
 				</section>
 
 
@@ -534,34 +544,23 @@
 					<p>Create a flexible and intuitive audio filter automation program by utilizing affordances learned through other programs.</p>
 
 					<aside class="notes">
-						Replace me!
+						There's a lot of audio effects on the internet, so why make another? Well, no current solutions allow for the effect to easily
+						modulate over time. Additionally, most modern audio effects look like theyre stuck in 2001 with confusing and skeuomorphic
+						designs.
+						<br>
+						<br> My solution was to create an all-in-one filter design plugin with animation tools built in, as well as to create a
+						consistent design language for application controls.
 					</aside>
 				</section>
 
 				<!-- Background -->
 				<section data-background-image="media/animate/eq.jpg" data-background-size="cover" class="theme-dark">
 
-					<h2>Background</h2>
-					<ul>
-						<li>Animate is a digital audio plugin</li>
-						<li>EQ & Music</li>
-						<li>Animation / Modulation for more varied effects</li>
-						<li>Prevalent in Electronic Music</li>
-						<li>Current solutions aren't robust enough</li>
-					</ul>
-
-					<aside class="notes">
-						Replace me!
-					</aside>
-				</section>
-
-				<!-- Examples -->
-				<section class="theme-dark" data-background-color="#1e1e1e">
-
 					<h2>Examples</h2>
 
 					<aside class="notes">
-						To better understand the product, I have a couple examples set up.
+						Because this product is somewhat domain-specific, I have a couple examples set up to better illustrate the project's uses
+						and goals.
 					</aside>
 				</section>
 
@@ -570,8 +569,11 @@
 
 					<div class="grid">
 						<div>
-							<h1>High Pass</h1>
+							<h1>Low Pass</h1>
 							<p>Filters out all high-pitched frequencies</p>
+							<audio controls>
+								<source src="media/animate/lowpass.mp3" type="audio/mpeg" autoplay=false>
+							</audio>
 						</div>
 						<div>
 							<img src="media/animate/highcut.png" />
@@ -579,7 +581,9 @@
 					</div>
 
 					<aside class="notes">
-						Replace me!
+						I loaded up a generic filter plugin to demonstrate the connection between visuals and audio.
+						<br>
+						<br> I fed static noise into the filter and created a low-pass, which cut all higher frequencies.
 					</aside>
 				</section>
 
@@ -587,8 +591,11 @@
 
 					<div class="grid">
 						<div>
-							<h1>Low Pass</h1>
+							<h1>High Pass</h1>
 							<p>Filters out all low-pitched frequencies</p>
+							<audio controls>
+								<source src="media/animate/highpass.mp3" type="audio/mpeg" autoplay=false>
+							</audio>
 						</div>
 						<div>
 							<img src="media/animate/lowcut.png" />
@@ -596,12 +603,11 @@
 					</div>
 
 					<aside class="notes">
-						Replace me!
+						A high-pass on the other hand, filters out all lower frequencies.
 					</aside>
 				</section>
 
 				<section class="theme-dark" data-background-color="#1e1e1e">
-
 					<div class="grid">
 						<div>
 							<h1>Goal</h1>
@@ -613,7 +619,8 @@
 					</div>
 
 					<aside class="notes">
-						Replace me!
+						My goal was to let a user to mix and match filters and then animate between them easily. Those filters could create everything
+						from dubstep wobble basses to cool sci-fi sound designs.
 					</aside>
 				</section>
 
@@ -631,7 +638,7 @@
 					</ul>
 
 					<aside class="notes">
-						Replace me!
+						As I noted before, other filters exist, but don't have great user experience, and don't allow for easy keyframing and animation.
 					</aside>
 				</section>
 
@@ -648,7 +655,8 @@
 					</ul>
 
 					<aside class="notes">
-						Replace me!
+						This is another passion project of mine, so I came up with the concept & design. However it's just a concept, so I didn't
+						try to make it real just yet.
 					</aside>
 				</section>
 
@@ -665,7 +673,24 @@
 					</ul>
 
 					<aside class="notes">
-						Replace me!
+						My design goals are to communicate the basics of the application easily. I want to reduce or eliminate time spent reading
+						a manual. Anything the user couldn't pick up from visual cues, they should be able to learn from experimentation.
+					</aside>
+				</section>
+
+				<section class="theme-dark" data-background-color="#1e1e1e">
+
+					<h1>Restrictions</h1>
+					<p class="fragment">Single Page</p>
+					<p class="fragment">Compact</p>
+
+					<aside class="notes">
+						Certain properties are required and expected for audio plugins, so I needed to set a few restrictions.
+						<br>
+						<br> Firstly, the app can only occupy one window. I also avoid tabs as they usually end up being clunky.
+						<br>
+						<br> Secondly, the application has to be compact. Users will have multiple plugins on their screen at once, so it has to
+						find the right balance of information density.
 					</aside>
 				</section>
 
@@ -747,7 +772,7 @@
 					</div>
 
 					<aside class=" notes ">
-						Replace me!
+						Grey - For inactive or currently unselected elements
 					</aside>
 				</section>
 
@@ -764,7 +789,7 @@
 					</div>
 
 					<aside class=" notes ">
-						Replace me!
+						Yellow - for active or currently selected elements as well as current keyframes.
 					</aside>
 				</section>
 
@@ -773,7 +798,7 @@
 					<div class="grid">
 						<div>
 							<h1>Purple</h1>
-							<p>To represent non-keyframed interactive elements and other GUI.</p>
+							<p>To represent non-keyframed interactive elements and other GUI visuals.</p>
 						</div>
 						<div>
 							<img src="media/animate/anim_purple.png" />
@@ -781,7 +806,7 @@
 					</div>
 
 					<aside class=" notes ">
-						Replace me!
+						Purple - To represent non-keyframed interactive elements and other GUI visuals.
 					</aside>
 				</section>
 
@@ -798,7 +823,7 @@
 					</div>
 
 					<aside class=" notes ">
-						Replace me!
+						And any other similar colors to represent elements that are linked in some way.
 					</aside>
 				</section>
 
@@ -815,7 +840,7 @@
 					</div>
 
 					<aside class=" notes ">
-						Replace me!
+						I also used simple shapes. Squares reprented keyframes that weren't currently active - - -
 					</aside>
 				</section>
 
@@ -832,7 +857,14 @@
 					</div>
 
 					<aside class=" notes ">
-						Replace me!
+						- - - while diamond shapes represented active keyframes.
+					</aside>
+				</section>
+
+				<section data-background-color="#1e1e1e ">
+					<h1>Comps</h1>
+					<aside class="notes">
+						After deciding logical design rules, I brought visual style to my wireframes.
 					</aside>
 				</section>
 
@@ -840,18 +872,45 @@
 
 				<!-- Comp -->
 				<section data-background-image="media/animate/comp.png" data-background-size="contain " data-background-color="#1e1e1e ">
+					<aside class="notes">
+						I kept my sectioned approach, and grouped related controls together. I made sure that I used the correct logarithmic scale
+						as is the standard in audio tools.
+					</aside>
 				</section>
 
 				<section data-background-image="media/animate/connections.jpg" data-background-size="contain " data-background-color="#1e1e1e ">
-				</section>
-
-				<section data-background-image="media/animate/amount.jpg" data-background-size="contain " data-background-color="#1e1e1e ">
+					<aside class="notes">
+						I visually connected controls with the grey and yellow keyframing colors. For instance, node "A" has a keyframe on its amplitude
+						and shape at the timeline's current position. This is reflected in the properties window with the amplitude and shape
+						highlighted in yellow, while the width and position are grey.
+					</aside>
 				</section>
 
 				<section data-background-image="media/animate/colors.jpg" data-background-size="contain " data-background-color="#1e1e1e ">
+					<aside class="notes">
+						Additionally, properties are connected by colors. All relations between nodes, timeline keyframes, and per-frame settings
+						are easily visible and color coordinated.
+					</aside>
 				</section>
 
 				<section data-background-image="media/animate/comp.png" data-background-size="contain " data-background-color="#1e1e1e ">
+				</section>
+
+				<section>
+					<h2>Conclusion: What next?</h2>
+					<ul>
+						<p class="fragment fade-in">Testing</p>
+						<p class="fragment fade-in">Development</p>
+					</ul>
+					<aside class="notes">
+						What's next?
+						<br>
+						<br> The next step is to create a mockup of my application using a product like invision and have audio producers play
+						with it. I'd like to know if the concept is well explained and make sure that the tools I provided work as expected.
+						I would then revise my design based on their comments and repeat the process.
+						<br>
+						<br> After testing, it'd be really fun to make it actually work and publish.
+					</aside>
 				</section>
 			</section>
 
@@ -900,8 +959,8 @@
 						<br>
 						<br> User B just wants to relax watching highlights. They want to sit back and watch anything and everything.
 						<br>
-						<br> User C wants to catch up with the latest so they can talk about sports with their friends and colleagues. They love
-						specific sports teams and would like to know about them specifically.
+						<br> User C wants to catch up with the latest so they can talk about sports with their friends and colleagues. They want
+						to follow specific sports and teams.
 					</aside>
 				</section>
 
@@ -909,7 +968,7 @@
 					<aside class="notes ">
 						I began with lofi wireframes.
 						<br>
-						<br> Simple, optional login lets users quickly get into the app.
+						<br> A simple, optional login lets users quickly get into the app.
 					</aside>
 				</section>
 
@@ -963,7 +1022,8 @@
 					</div>
 
 					<aside class="notes ">
-						Replace me!
+						Users can sign in with the traditional email and password, can also use google or Facebook for easier login. If they wish,
+						they can also bypass the login stage alltogether and save their account later.
 					</aside>
 				</section>
 
@@ -982,7 +1042,12 @@
 					</div>
 
 					<aside class="notes ">
-						Replace me!
+						The feed is where the user should be spending most of their time. It's a constant stream of content chosen algorithmically
+						<br>
+						<br> based on user location, interests, and likes. The goal is to have the user always thinking "Okay, just one more video..."
+						<br>
+						<br> More information and related videos are shown upon clicking the video's title, and a graphic showing the related sport
+						is shown on the top right.
 					</aside>
 				</section>
 
@@ -1000,7 +1065,8 @@
 					</div>
 
 					<aside class="notes ">
-						Replace me!
+						Users can like a video to save it to their favorites. Additionally, those likes will help the underlying search engine find
+						them more videos and sports related to their interests.
 					</aside>
 				</section>
 
@@ -1018,14 +1084,38 @@
 					</div>
 
 					<aside class="notes ">
-						Replace me!
+						While topics are automatically anticipated by an underlying algorithm, users can have finer control over their followed interests
+						in the topics section. Here, they can search for new topics manually, or unfollow ones they aren't interested in.
 					</aside>
 				</section>
 
 				<!-- end -->
 				<section data-background-video="media/tr/full.mp4" data-background-size="contain" data-background-video-loop="true" data-background-color="#111 ">
+					<aside class="notes ">
+						That's the Reel! I have a full video here showing the complete user journey. I'd also like to talk about the future of this
+						project.
+						<br>
+						<br> The Reel was created in a very small period of time, so I have a few features I would like to implement in the future.
+						<br>
+						<br> For example, there should be a small onboarding for teaching users how the content stream worked. Another small tutorial
+						might show users how to favorite a video and properly interact with the app since it's partially gesture based.
+					</aside>
 				</section>
 
+			</section>
+
+			<section>
+				<h1>Thank you!</h1>
+				<p>alexloz.com</p>
+				<aside class="notes ">
+					That concludes my portfolio presentation. Narrowing this down to just 3 projects was difficult, but I hope I provided some
+					insight to my design process.
+					<br>
+					<br> I do have a few other projects that are works-in-progress with more research-based approaches. For example, I've started
+					a project that attempts to fix programming documentation design issues based on user feedback on my portfolio.
+					<br>
+					<br> Thank you for the oppurtunity!
+				</aside>
 			</section>
 
 
